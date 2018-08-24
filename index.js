@@ -1,7 +1,7 @@
 /** @format */
 
 import {AppRegistry} from 'react-native';
-import App from './Style';
+import App from './FlexDirectionBasics';
 import {name as appName} from './app.json';
 
 AppRegistry.registerComponent(appName, () => App);
