@@ -12,7 +12,9 @@ export default class Component1 extends Component {
         backgroundColor: '#FF0000',
       }}>
 
-      <MyText></MyText>
+      <MyText message="Tanakorn"></MyText>
+      <MyText message="Fight"></MyText>
+      <MyText message="Kaew"></MyText>
 
       </View>
     );
@@ -26,7 +28,7 @@ class MyText extends Component {
           textAlign: 'center',
           color: '#FFFFFF',
         }}>
-          Hello, MyText !
+          Hello, {this.props.message} !
         </Text>
     );
   }
