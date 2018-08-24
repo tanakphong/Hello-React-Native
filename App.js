@@ -29,7 +29,37 @@ const instructions = Platform.select({
 //   }
 // }
 export default class App extends Component {
-  render() {
+  render(){
+    return(
+      <View style={{
+        flex: 1,
+        flexDirection:'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#FF0000',
+      }}>
+        <Text style={{
+          textAlign: 'center',
+          color: '#FFFFFF',
+        }}>
+          Hello, there!
+        </Text>
+        <Text style={{
+          textAlign: 'center',
+          color: '#FFFFFF',
+        }}>
+          Hello, there!
+        </Text>
+        <Text style={{
+          textAlign: 'center',
+          color: '#FFFFFF',
+        }}>
+          Hello, there!
+        </Text>
+      </View>
+    );
+  }
+  /*render() {
     let pic = {
       uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
     };
@@ -39,7 +69,7 @@ export default class App extends Component {
         <Text style={styles.welcome}>Hello, there test</Text>
       </View>
     );
-  }
+  }*/
 }
 
 const styles = StyleSheet.create({
